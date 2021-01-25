@@ -8,8 +8,8 @@ echo ""
 echo "------------------------------"
 echo "           MARKSHEET          "
 echo "------------------------------"
-echo "Total of 3 subjects are: $sum"
-echo "Percentage: $per%"
+echo "Total Marks Scored = $sum"
+echo "Percentage = $per%"
 if [ $per -gt 60 ]
 then
 echo "You get Distinction"
