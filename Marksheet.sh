@@ -12,13 +12,13 @@ echo "Total Marks Scored = $sum"
 echo "Percentage = $per%"
 if [ $per -gt 60 ]
 then
-echo "You get Distinction"
+echo "Class Obtained: Distinction"
 elif [ $per -gt 50 ]
 then 
-echo "You get First Class"
+echo "Class Obtained: First Class"
 elif [ $per -gt 40 ]
 then
-echo "You get Second Class"
+echo "Class Obtained: Second Class"
 else
 echo "You get Fail"
 fi
